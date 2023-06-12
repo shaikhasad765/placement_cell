@@ -1,0 +1,71 @@
+.global-text{
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.signup-container{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.74), rgba(173, 253, 203, 0.63));
+    border-radius: 30px;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(132, 214, 173, 0.705);
+}
+
+.text-container{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.text-container h1 {
+    margin: 0; /* Remove any default margin to prevent unwanted spacing */
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(0,190,165), rgb(187,252,244));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.form-container{
+    width: 300px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.form-container input{
+    border-radius: 30px;
+}
+
+.form-container input:hover{
+    box-shadow: 0 2px 4px rgb(4,25,20);
+}
+
+// button styles
+.sub-btn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(0,190,165), rgb(187,252,244));
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.sub-btn:hover {
+    background-color: #35b6a5;
+    transform: scale(1.1);
+}
+
+.signup-footer-container{
+    padding-top: 10px;
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    text-align: center;
+}
